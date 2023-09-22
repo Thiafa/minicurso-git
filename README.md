@@ -28,21 +28,27 @@ cd minicurso-git
 git checkout -b dev
 ```
 
-## Passo 5: Criar um Arquivo .txt com o Seu Nome
+## Passo 5:Atualizar repositório
 
-## Passo 6: Adicionar Suas Alterações ao Stage
+```shell
+git pull origin dev
+```
+
+## Passo 6: Criar um Arquivo .txt com o Seu Nome
+
+## Passo 7: Adicionar Suas Alterações ao Stage
 
 ```shell
 git add .
 ```
 
-## Passo 7: Comitar Suas Alterações
+## Passo 8: Comitar Suas Alterações
 
 ```shell
 git commit -m "Feat: adicionando arquivo com meu nome"
 ```
 
-## Passo 8: Enviar Suas Alterações para o Repositório Remoto
+## Passo 9: Enviar Suas Alterações para o Repositório Remoto
 
 ```shell
 git push origin dev
